@@ -32,21 +32,25 @@ can interact with from React.
 
 ## Instructions
 
-To get started, let's install our dependencies:
+To get started, ensure you have `json-server` installed globally. If not, you can install it using:
+
+```console
+$ npm install -g json-server
+```
+
+Then, install the project dependencies:
 
 ```console
 $ npm install
 ```
 
-Then, to run `json-server`, we'll be using the `server` script in the
-`package.json` file:
+To run `json-server`, we'll be using the `server` script in the `package.json` file:
 
 ```console
 $ npm run server
 ```
 
-This will run `json-server` on [http://localhost:4000](http://localhost:4000).
-Before moving ahead, open
+This will run `json-server` on [http://localhost:4000](http://localhost:4000). Before moving ahead, open
 [http://localhost:4000/items](http://localhost:4000/items) in the browser and
 familiarize yourself with the data. What are the important keys on each object?
 
